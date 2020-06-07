@@ -6,6 +6,5 @@ array.join(" and ")
 elsif array.size > 2
   last_word = array.pop
   array.join(", ") + ", and #{last_word}"
-
 end
 end
